@@ -3,7 +3,7 @@ GET http://localhost:8080/contacts
 
 ###
 // getOne id: 63c34e2206d7ff9ddc29bbfd
-GET http://localhost:8080/contacts/63c34e2206d7ff9ddc29bbfd HTTP/1.1
+GET http://localhost:8080/contacts/63c34e2206d7ff9ddc29bbfd
 
 ###
 // getOne id:
