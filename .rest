@@ -1,1 +1,15 @@
-GET http://localhost:3000 HTTP/1.1
+// getAll
+GET http://localhost:8080/contacts
+
+###
+// getOne id: 63c34e2206d7ff9ddc29bbfd
+GET http://localhost:8080/contacts/63c34e2206d7ff9ddc29bbfd HTTP/1.1
+
+###
+// getOne id:
+GET http://localhost:8080/contacts/63c3564106d7ff9ddc29bc00
+
+###
+// getOne id: 63c3566706d7ff9ddc29bc01
+GET http://localhost:8080/contacts/63c3566706d7ff9ddc29bc01
+
