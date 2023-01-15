@@ -1,7 +1,7 @@
-const { coolThings } = require('../controllers');
+const express = require('express');
 
-const routes = require('express').Router();
+const router = express.Router();
 
-routes.get('/', coolThings);
+router.use('/contacts', require('./contacts'));
 
-module.exports = routes;
+module.exports = router;

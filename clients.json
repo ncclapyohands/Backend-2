@@ -1,0 +1,23 @@
+[{
+    "contact": {
+      "firstName": "Hunter",
+      "lastName": "Pechos",
+      "email": "hunterpechos12@gmail.com",
+      "favoriteColor": "Blue",
+      "birthday": "09/29/2000"
+    },
+    "contact2": {
+        "firstName": "Danny",
+        "lastName": "White",
+        "email": "dannydekes98@gmail.com",
+        "favoriteColor": "Green",
+        "birthday": "01/28/2004"
+      },
+      "contact3": {
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+      }
+  }]
