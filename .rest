@@ -11,5 +11,40 @@ GET http://localhost:8080/contacts/63c3564106d7ff9ddc29bc00
 
 ###
 // getOne id: 63c3566706d7ff9ddc29bc01
-GET http://localhost:8080/contacts/63c3566706d7ff9ddc29bc01
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
+
+###
+// updateInfo id: 63c3566706d7ff9ddc29bc01
+PUT http://localhost:8080/contacts/63cb7743ec66aa6b26f8853c HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
+
+###
+// updateInfo id: 63c3566706d7ff9ddc29bc01
+DELETE http://localhost:8080/contacts/63cb7743ec66aa6b26f8853c HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
 
