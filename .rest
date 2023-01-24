@@ -10,7 +10,7 @@ GET http://localhost:8080/contacts/63c34e2206d7ff9ddc29bbfd
 GET http://localhost:8080/contacts/63c3564106d7ff9ddc29bc00
 
 ###
-// getOne id: 63c3566706d7ff9ddc29bc01
+// Post id: 63c3566706d7ff9ddc29bc01
 POST http://localhost:8080/contacts HTTP/1.1
 Content-Type: application/json
 
@@ -24,7 +24,34 @@ Content-Type: application/json
 
 ###
 // updateInfo id: 63c3566706d7ff9ddc29bc01
-PUT http://localhost:8080/contacts/63cb7743ec66aa6b26f8853c HTTP/1.1
+PUT http://localhost:8080/contacts/63cc675a83fa8e5ade98c09a HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
+
+###
+// Delete id: 63c3566706d7ff9ddc29bc01
+DELETE http://localhost:8080/contacts/63cc675a83fa8e5ade98c09a HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
+
+
+###
+// updateInfo id: 63c3566706d7ff9ddc29bc01
+POST https://nathan648test2.onrender.com/contacts HTTP/1.1
 Content-Type: application/json
 
 {
@@ -37,7 +64,7 @@ Content-Type: application/json
 
 ###
 // updateInfo id: 63c3566706d7ff9ddc29bc01
-DELETE http://localhost:8080/contacts/63cb7743ec66aa6b26f8853c HTTP/1.1
+PUT https://nathan648test2.onrender.com/contacts/63cc676cb9b7cc4a8a205de8 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -48,3 +75,15 @@ Content-Type: application/json
         "birthday": "12/08/1997"
 }
 
+###
+// updateInfo id: 63c3566706d7ff9ddc29bc01
+DELETE https://nathan648test2.onrender.com/contacts/63cc676cb9b7cc4a8a205de8 HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Tanner",
+        "lastName": "Robinson",
+        "email": "t4nn3r15c001@gmail.com",
+        "favoriteColor": "Also Green",
+        "birthday": "12/08/1997"
+}
