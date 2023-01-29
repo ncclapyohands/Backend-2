@@ -87,3 +87,8 @@ Content-Type: application/json
         "favoriteColor": "Also Green",
         "birthday": "12/08/1997"
 }
+
+###
+// updateInfo id: 63c3566706d7ff9ddc29bc01
+GET https://nathan648test2.onrender.com/api-docs HTTP/1.1
+Content-Type: application/json
